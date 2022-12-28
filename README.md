@@ -7,5 +7,8 @@ input the number of grams of a certain food to see the amount of macronutrients 
 
 
 
-https://user-images.githubusercontent.com/65822856/209873823-da540924-8888-4d5a-b19f-53250181f338.mp4
+
+
+
+https://user-images.githubusercontent.com/65822856/209873875-64c44ee9-0207-415d-83b9-bcae9e01eb49.mp4
 
