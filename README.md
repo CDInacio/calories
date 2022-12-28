@@ -9,3 +9,25 @@ Obs: There are still more functionalities currenctly being developed!
 
 choose a propper name \
 input number of grams of a specific food and get the informations pointed above.
+
+**Página principal**
+
+![Home](https://i.imgur.com/aBItsCTl.png)
+
+**Página de categorias**
+
+![Categorias](https://i.imgur.com/Pj1B7Arl.png)
+
+**Página de subcategorias**
+
+![Subcategorias](https://i.imgur.com/5pr7sFbl.png)
+
+**Página de pesquisa**
+
+![Pesquisa](https://i.imgur.com/KW6DZXal.png)
+
+**Página de alimento em detalhes**
+
+![Aliemto](https://i.imgur.com/P0HWd7gl.png)
+
+
