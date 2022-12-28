@@ -31,18 +31,16 @@ export default SubcategoriesItem;
 
 const styles = StyleSheet.create({
   subcatTitleStl: {
-    alignSelf: "center",
     flex: 1,
     fontWeight: "bold",
     fontSize: 15,
-    marginLeft: 10,
+    position: "absolute",
+    top: 50,
+    left: 10,
     color: "white",
   },
   itemContainer: {
-    position: "relative",
-    marginRight: 10,
-    // marginTop: 10,
-    // marginBottom: 15,
+    marginRight: 12,
     borderRadius: 3,
     shadowColor: "#000",
     shadowOffset: {
@@ -55,8 +53,8 @@ const styles = StyleSheet.create({
     elevation: 4,
     backgroundColor: "white",
     overflow: "hidden",
-    width: 120,
-    height: 190,
+    width: 200,
+    height: 100,
   },
   pressed: {
     opacity: 0.75,

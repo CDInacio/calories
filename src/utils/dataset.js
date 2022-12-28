@@ -2,6 +2,7 @@ export const FOODS = [
   {
     id: "f1",
     category: "Suplementos",
+    amount: "1",
     subcategory: "Proteína",
     name: "Whey Protein 80% (Concentrado) (Growth Supplements)",
     measures: {
@@ -18,6 +19,7 @@ export const FOODS = [
   {
     id: "f2",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Albumina Saltos",
     measures: {
@@ -34,6 +36,7 @@ export const FOODS = [
   {
     id: "f3",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "100% Whey Protein - Optimum",
     measures: {
@@ -50,6 +53,7 @@ export const FOODS = [
   {
     id: "f4",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "100% Whey Protein - EAS",
     measures: {
@@ -66,6 +70,7 @@ export const FOODS = [
   {
     id: "f5",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Designer Whey Protein - Designer",
     measures: {
@@ -82,6 +87,7 @@ export const FOODS = [
   {
     id: "f6",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Whey Protein Perfect - Nature's Best",
     measures: {
@@ -98,6 +104,7 @@ export const FOODS = [
   {
     id: "f7",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Whey Protein Pure - Health Labs",
     measures: {
@@ -114,6 +121,7 @@ export const FOODS = [
   {
     id: "f8",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Intra Pro Whey Protein Gaspari",
     measures: {
@@ -130,6 +138,7 @@ export const FOODS = [
   {
     id: "f9",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Milk Protein",
     measures: {
@@ -146,6 +155,7 @@ export const FOODS = [
   {
     id: "f10",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "100% Casein Protein",
     measures: {
@@ -162,6 +172,7 @@ export const FOODS = [
   {
     id: "f11",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Syntha-6",
     measures: {
@@ -178,6 +189,7 @@ export const FOODS = [
   {
     id: "f12",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Platinum Hydrowhey",
     measures: {
@@ -194,6 +206,7 @@ export const FOODS = [
   {
     id: "f13",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Platinum Hydrowhey",
     measures: {
@@ -210,6 +223,7 @@ export const FOODS = [
   {
     id: "f14",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Whey Protein Isolado 90% (Isolado) (Growth Supplements)",
     measures: [
@@ -227,6 +241,7 @@ export const FOODS = [
   {
     id: "f15",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Muscle Whey Protein NO2 (Neo Nutri)",
     measures: {
@@ -243,6 +258,7 @@ export const FOODS = [
   {
     id: "f16",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "100% Pure Whey Morango PROBIÓTICA",
     measures: {
@@ -258,6 +274,7 @@ export const FOODS = [
   {
     id: "f17",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Pro Complex - Optimum",
     measures: {
@@ -274,6 +291,7 @@ export const FOODS = [
   {
     id: "f18",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Combat Powder - Muscle Pharm",
     measures: {
@@ -289,6 +307,7 @@ export const FOODS = [
   {
     id: "f19",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "VP2 Whey Isolate",
     measures: {
@@ -305,6 +324,7 @@ export const FOODS = [
   {
     id: "f20",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "3 Whey Protein - Probiótica",
     measures: {
@@ -321,6 +341,7 @@ export const FOODS = [
   {
     id: "f21",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Pro V60 - Labrada",
     measures: {
@@ -337,6 +358,7 @@ export const FOODS = [
   {
     id: "f22",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Top Whey - Max Titanium",
     measures: {
@@ -353,6 +375,7 @@ export const FOODS = [
   {
     id: "f23",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "ISO Protein Zero Carb (900g) - Integralmédica",
     measures: {
@@ -369,6 +392,7 @@ export const FOODS = [
   {
     id: "f24",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Whey Protein - Extreme Whey Protein Solaris",
     measures: {
@@ -385,6 +409,7 @@ export const FOODS = [
   {
     id: "f25",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Milk Protein - Growth Supplements",
     measures: {
@@ -401,6 +426,7 @@ export const FOODS = [
   {
     id: "f26",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Pro Muscle - Probiótica",
     measures: {
@@ -417,6 +443,7 @@ export const FOODS = [
   {
     id: "f27",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Micellar Pro (Protein Time-Release) - Atlhetica Evolution",
     measures: {
@@ -433,6 +460,7 @@ export const FOODS = [
   {
     id: "f28",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "MyoFusion - Gaspari Nutrition",
     measures: {
@@ -449,6 +477,7 @@ export const FOODS = [
   {
     id: "f29",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Elite Whey Protein - Dymatize",
     measures: {
@@ -465,6 +494,7 @@ export const FOODS = [
   {
     id: "f30",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "100% Whey Protein Fuel - Twinlab",
     measures: {
@@ -481,6 +511,7 @@ export const FOODS = [
   {
     id: "f31",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Elite Fusion 7 - Dymatize",
     measures: {
@@ -496,6 +527,7 @@ export const FOODS = [
   {
     id: "f32",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Albumina Fama",
     measures: {
@@ -511,6 +543,7 @@ export const FOODS = [
   {
     id: "f33",
     category: "Suplementos",
+    amount: "0.1",
     subcategory: "Proteína",
     name: "Albumina Naturovos",
     measures: {

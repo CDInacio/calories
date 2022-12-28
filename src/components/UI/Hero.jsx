@@ -1,3 +1,4 @@
+import { useNavigation } from "@react-navigation/native";
 import React from "react";
 import {
   ImageBackground,
@@ -8,7 +9,13 @@ import {
 } from "react-native";
 import Icon from "./Icon";
 
-const Hero = ({ imageUrl, text, onPress, title, subtitle }) => {
+const Hero = ({ imageUrl, onPress, title, subtitle }) => {
+  const navigation = useNavigation();
+
+  const handleSearch = () => {
+    navigation.navigate("Search");
+  };
+
   return (
     <ImageBackground style={styles.image} source={{ uri: imageUrl }}>
       <View style={styles.iconsContainer}>
@@ -22,9 +29,9 @@ const Hero = ({ imageUrl, text, onPress, title, subtitle }) => {
             />
           </Pressable>
         </View>
-        <View style={styles.btnContainer}>
-          <Pressable onPress={onPress}>
-            <Icon style={styles.icon} name="search" size={30} color="#ffff" />
+        <View style={[styles.btnContainer, styles.searchContainer]}>
+          <Pressable onPress={handleSearch}>
+            <Icon style={[styles.icon]} name="search" size={30} color="#ffff" />
           </Pressable>
         </View>
       </View>
@@ -37,6 +44,19 @@ const Hero = ({ imageUrl, text, onPress, title, subtitle }) => {
 export default Hero;
 
 const styles = StyleSheet.create({
+  opened: {},
+  searchBar: {
+    borderRadius: 5,
+    backgroundColor: "white",
+    width: 220,
+  },
+  input: {
+    flex: 1,
+    padding: 10,
+  },
+  searchContainer: {
+    flexDirection: "row",
+  },
   iconsContainer: {
     marginHorizontal: 10,
     marginTop: 50,
@@ -49,7 +69,7 @@ const styles = StyleSheet.create({
   },
   title: {
     marginHorizontal: 20,
-    marginTop: 100,
+    marginTop: 90,
     fontSize: 23,
     fontWeight: "bold",
     color: "white",

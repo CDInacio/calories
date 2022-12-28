@@ -7,7 +7,7 @@ const CategoriesItem = ({ id, category, imageUrl }) => {
   const navigation = useNavigation();
 
   const handlePress = () => {
-    navigation.navigate("SingleCategory", { id: id });
+    navigation.navigate("Category", { id: id });
   };
 
   return (
@@ -28,20 +28,20 @@ export default CategoriesItem;
 const styles = StyleSheet.create({
   itemContainer: {
     position: "relative",
-    marginHorizontal: 10,
+    marginHorizontal: 15,
     height: 150,
-    // marginTop: 10,
     marginBottom: 15,
     borderRadius: 3,
+
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
       height: 2,
     },
-    shadowOpacity: 0.23,
-    shadowRadius: 2.62,
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
 
-    elevation: 4,
+    elevation: 5,
     backgroundColor: "white",
     overflow: "hidden",
   },

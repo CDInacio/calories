@@ -21,7 +21,6 @@ export default SubcategoriesList;
 const styles = StyleSheet.create({
   rootContainer: {
     marginHorizontal: 12,
-    marginTop: 10,
-    marginBottom: 10,
+    marginVertical: 12,
   },
 });

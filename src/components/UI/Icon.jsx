@@ -4,7 +4,7 @@ import { View } from "react-native";
 
 const Icon = ({ name, color, size, style }) => {
   return (
-    <View style={style}>
+    <View style={[style]}>
       <Ionicons name={name} size={size} color={color} />
     </View>
   );

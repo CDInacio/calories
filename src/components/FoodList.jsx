@@ -1,50 +1,38 @@
+import { useNavigation } from "@react-navigation/native";
 import React, { useState } from "react";
 import { FlatList, StyleSheet, Text, View } from "react-native";
 
 import FoodItem from "./FoodItem";
-import ModalUi from "./UI/Modal";
 
 const FoodList = ({ itemLength, foods }) => {
-  const [modalVisible, setModalVisible] = useState({ isOpen: false, id: "" });
+  const navigation = useNavigation();
 
-  const handleOpenModal = (foodId) => {
-    setModalVisible({ isOpen: true, id: foodId });
+  const handleSelectFood = (foodId) => {
+    navigation.navigate("SingleFood", { id: foodId });
   };
 
-  const handleCloseModal = () => {
-    setModalVisible({ isOpen: false, id: "" });
-  };
   return (
-    <>
-      <ModalUi
-        foodId={modalVisible.id}
-        isVisible={modalVisible}
-        onPress={handleCloseModal}
-      />
-
-      <View style={styles.listContainer}>
-        <View style={styles.borderBottom}>
-          <View style={styles.qtyInfo}>
-            <Text style={styles.numItems}>{itemLength} item(s)</Text>
-          </View>
+    <View style={styles.listContainer}>
+      <View style={styles.borderBottom}>
+        <View style={styles.qtyInfo}>
+          <Text style={styles.numItems}>{itemLength} item(s)</Text>
         </View>
-        <FlatList
-          data={foods}
-          keyExtractor={(item) => item.id}
-          renderItem={({ item }) => (
-            <FoodItem
-              onPress={handleOpenModal}
-              item={item}
-              modalVisible={modalVisible}
-              // id={item.id}
-              // name={item.name}
-              // subcategory={item.subcategory}
-              // calories={item.measures.calories}
-            />
-          )}
-        />
       </View>
-    </>
+      <FlatList
+        data={foods}
+        keyExtractor={(item) => item.id}
+        renderItem={({ item }) => (
+          <FoodItem
+            onPress={handleSelectFood}
+            item={item}
+            // id={item.id}
+            // name={item.name}
+            // subcategory={item.subcategory}
+            // calories={item.measures.calories}
+          />
+        )}
+      />
+    </View>
   );
 };
 
